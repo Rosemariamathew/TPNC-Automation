@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestCases.SearchingFunctionality"/>
+      <class name="TestCases.CartFunctionality"/>
+      <class name="TestCases.BannerImageNavigation"/>
+      <class name="TestCases.LoginFunctionality"/>
+      <class name="TestCases.CategorySectionHomepage"/>
+      <class name="TestCases.HeaderAndFooterLinks"/>
+      <class name="TestCases.ProductGridClick"/>
+      <class name="TestCases.SliderAutomation"/>
+      <class name="TestCases.SearchFunctionality"/>
+      <class name="TestCases.CategorySectionSelection"/>
+      <class name="TestCases.PDPNavigation"/>
+      <class name="TestCases.SortingSectionFunctionality"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
